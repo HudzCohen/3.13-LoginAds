@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.13-LoginAds.Web", "3.13-LoginAds.Web\3.13-LoginAds.Web.csproj", "{4BCD64FD-1437-4615-A6E5-9B711162EACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.13-LoginAds.Data", "3.13-LoginAds.Data\3.13-LoginAds.Data.csproj", "{F682B384-5A6F-4A5F-8509-D4E9F55EC87C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BCD64FD-1437-4615-A6E5-9B711162EACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCD64FD-1437-4615-A6E5-9B711162EACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCD64FD-1437-4615-A6E5-9B711162EACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCD64FD-1437-4615-A6E5-9B711162EACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F682B384-5A6F-4A5F-8509-D4E9F55EC87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F682B384-5A6F-4A5F-8509-D4E9F55EC87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F682B384-5A6F-4A5F-8509-D4E9F55EC87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F682B384-5A6F-4A5F-8509-D4E9F55EC87C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09CFDFD2-A292-4D77-9C31-ED19B89DAC7F}
+	EndGlobalSection
+EndGlobal

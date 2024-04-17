@@ -1,0 +1,29 @@
+﻿@using _3._13_LoginAds.Data
+
+@model IndexViewModel
+
+<div class="row">
+    <div class="header">
+        <h1>@Model.Message</h1>
+    </div>
+    <div class="col-md-6 offset-md-3">
+        @foreach (Ad ad in Model.Ads)
+        {
+            <div class="bg-light p-4 rounded shadow mb-3">
+                <h5>Listed on:@ad.Date.ToLongDateString()</h5>
+                <h5>Phone Number: @ad.Number</h5>
+                <h3>Details:</h3>
+                <p>@ad.Description</p>
+                @if(Model.User != null && ad.UserId == Model.User.Id)
+                {
+                    <form method="post" action="/home/deleteAd" class="mt-4">
+                        <input type="hidden" value="@ad.Id" name="id" />
+                        <button class="btn btn-danger">Delete</button>
+                    </form>
+                }
+            </div>
+        }
+
+    </div>
+
+</div>
